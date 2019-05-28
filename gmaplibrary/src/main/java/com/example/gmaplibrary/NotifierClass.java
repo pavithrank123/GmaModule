@@ -7,6 +7,6 @@ public class NotifierClass {
 
     public void showNotification(Context context,String string)
     {
-        Toast.makeText(context,string,Toast.LENGTH_SHORT);
+        Toast.makeText(context,string,Toast.LENGTH_SHORT).show();
     }
 }
